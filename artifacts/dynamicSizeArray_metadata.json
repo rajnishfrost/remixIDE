@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "a",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "fun",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"dyanmicSizeArray.sol": "dynamicSizeArray"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"dyanmicSizeArray.sol": {
+			"keccak256": "0x1518412032b5581ced91dbbffe0377004304d51a7e3ed34f6557cb757270dcd7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://94b7df76882defa172a42e19553725e39272cd0852084ffa96a96f8feef4e247",
+				"dweb:/ipfs/Qmdo1FzT7LChEuGD6EcdWHRjTqXzBWUdktzSV56bsTHHLw"
+			]
+		}
+	},
+	"version": 1
+}

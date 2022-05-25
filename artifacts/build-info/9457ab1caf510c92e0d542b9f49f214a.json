@@ -1,0 +1,68 @@
+{
+	"id": "9457ab1caf510c92e0d542b9f49f214a",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.14",
+	"solcLongVersion": "0.8.14+commit.80d49f37",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"ERC20_2.sol": {
+				"content": "// SPDX-License-Identifier: MIT\n\npragma solidity ^0.8.0;"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"sources": {
+			"ERC20_2.sol": {
+				"ast": {
+					"absolutePath": "ERC20_2.sol",
+					"exportedSymbols": {},
+					"id": 2,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.8",
+								".0"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "33:23:0"
+						}
+					],
+					"src": "33:23:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

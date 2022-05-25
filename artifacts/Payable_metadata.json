@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "checkEth",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getEth",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"payable.sol": "Payable"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"payable.sol": {
+			"keccak256": "0x4873c3e5f5658681329fb394513be4b16c678b5aa65da3eae7b90b799077c627",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fb46c57d285f35e4a7af62825c820cf23cebae98330cf16d6aa2af976e1857ad",
+				"dweb:/ipfs/QmUYY6zJ4G4Y9yYms9nuiLkjYMojSKcTFDoKbfkRn5GPFJ"
+			]
+		}
+	},
+	"version": 1
+}

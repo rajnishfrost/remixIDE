@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "ownerAdd",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ownerAdd2",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"constant.sol": "_constant"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"constant.sol": {
+			"keccak256": "0x936b92e3143a8f6fb438245f00aea4c1923e71f6134376d60b67190776d86ec3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://372fa0dbeb95016e7f29143074eeb5c4cabc9d35cc3682c081021715faca6970",
+				"dweb:/ipfs/QmRVNWcvkbxyiBGvafKFTTy22ngkPpEmhTB6F52GdEmq9S"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.14+commit.80d49f37"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ERC20.sol": "wner"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ERC20.sol": {
+			"keccak256": "0x8eabe6b9c980cdcf92c0f96d021aa738e76567687e62f1cf7180ac2d6389b559",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e7406164b3df6b84dba0fb037368c023fab3e450afe6c1eebf80b4bb82e12ebf",
+				"dweb:/ipfs/QmRymcTtuJVeHDpCKcEPEKEppUjWfWCPS23JSzi8srAVtr"
+			]
+		}
+	},
+	"version": 1
+}

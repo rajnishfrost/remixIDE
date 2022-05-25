@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "x",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"connectingToGanache.sol": "connectingToGanache"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"connectingToGanache.sol": {
+			"keccak256": "0x9e4fc25b8247549278d3e689ad0af790a7f8d334e7d30127628cd2502bfe6f81",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b2c178ad9e72f4a9e1812657edc02ce214e069befbde049d72e0b6669906d457",
+				"dweb:/ipfs/QmTeYEuHgBoWKwv5FXGLf8Tvytng5oxDweY1A4qNV6dMeA"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,325 @@
+{
+	"id": "5fdbb6fe2d5f3a12542e09d917aab2f1",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.7",
+	"solcLongVersion": "0.8.7+commit.e28d00a7",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"immutable.sol": {
+				"content": "// SPDX-License-Identifier: MIT\n\npragma solidity ^0.8.0;\n\ncontract Immutable{\n    \n}"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"contracts": {
+			"immutable.sol": {
+				"Immutable": {
+					"abi": [],
+					"devdoc": {
+						"kind": "dev",
+						"methods": {},
+						"version": 1
+					},
+					"evm": {
+						"assembly": "    /* \"immutable.sol\":58:84  contract Immutable{... */\n  mstore(0x40, 0x80)\n  callvalue\n  dup1\n  iszero\n  tag_1\n  jumpi\n  0x00\n  dup1\n  revert\ntag_1:\n  pop\n  dataSize(sub_0)\n  dup1\n  dataOffset(sub_0)\n  0x00\n  codecopy\n  0x00\n  return\nstop\n\nsub_0: assembly {\n        /* \"immutable.sol\":58:84  contract Immutable{... */\n      mstore(0x40, 0x80)\n      0x00\n      dup1\n      revert\n\n    auxdata: 0xa26469706673582212204afaf59fc85e605044e2e65d0a0abceb5be54b651d0c6fb8d6f55bec6e12dd8164736f6c63430008070033\n}\n",
+						"bytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"linkReferences": {},
+							"object": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212204afaf59fc85e605044e2e65d0a0abceb5be54b651d0c6fb8d6f55bec6e12dd8164736f6c63430008070033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3F DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0x4A STATICCALL CREATE2 SWAP16 0xC8 0x5E PUSH1 0x50 DIFFICULTY 0xE2 0xE6 0x5D EXP EXP 0xBC 0xEB JUMPDEST 0xE5 0x4B PUSH6 0x1D0C6FB8D6F5 JUMPDEST 0xEC PUSH15 0x12DD8164736F6C6343000807003300 ",
+							"sourceMap": "58:26:0:-:0;;;;;;;;;;;;;;;;;;;"
+						},
+						"deployedBytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"immutableReferences": {},
+							"linkReferences": {},
+							"object": "6080604052600080fdfea26469706673582212204afaf59fc85e605044e2e65d0a0abceb5be54b651d0c6fb8d6f55bec6e12dd8164736f6c63430008070033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0x4A STATICCALL CREATE2 SWAP16 0xC8 0x5E PUSH1 0x50 DIFFICULTY 0xE2 0xE6 0x5D EXP EXP 0xBC 0xEB JUMPDEST 0xE5 0x4B PUSH6 0x1D0C6FB8D6F5 JUMPDEST 0xEC PUSH15 0x12DD8164736F6C6343000807003300 ",
+							"sourceMap": "58:26:0:-:0;;;;;"
+						},
+						"gasEstimates": {
+							"creation": {
+								"codeDepositCost": "12600",
+								"executionCost": "66",
+								"totalCost": "12666"
+							}
+						},
+						"legacyAssembly": {
+							".code": [
+								{
+									"begin": 58,
+									"end": 84,
+									"name": "PUSH",
+									"source": 0,
+									"value": "80"
+								},
+								{
+									"begin": 58,
+									"end": 84,
+									"name": "PUSH",
+									"source": 0,
+									"value": "40"
+								},
+								{
+									"begin": 58,
+									"end": 84,
+									"name": "MSTORE",
+									"source": 0
+								},
+								{
+									"begin": 58,
+									"end": 84,
+									"name": "CALLVALUE",
+									"source": 0
+								},
+								{
+									"begin": 58,
+									"end": 84,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 58,
+									"end": 84,
+									"name": "ISZERO",
+									"source": 0
+								},
+								{
+									"begin": 58,
+									"end": 84,
+									"name": "PUSH [tag]",
+									"source": 0,
+									"value": "1"
+								},
+								{
+									"begin": 58,
+									"end": 84,
+									"name": "JUMPI",
+									"source": 0
+								},
+								{
+									"begin": 58,
+									"end": 84,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 58,
+									"end": 84,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 58,
+									"end": 84,
+									"name": "REVERT",
+									"source": 0
+								},
+								{
+									"begin": 58,
+									"end": 84,
+									"name": "tag",
+									"source": 0,
+									"value": "1"
+								},
+								{
+									"begin": 58,
+									"end": 84,
+									"name": "JUMPDEST",
+									"source": 0
+								},
+								{
+									"begin": 58,
+									"end": 84,
+									"name": "POP",
+									"source": 0
+								},
+								{
+									"begin": 58,
+									"end": 84,
+									"name": "PUSH #[$]",
+									"source": 0,
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 58,
+									"end": 84,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 58,
+									"end": 84,
+									"name": "PUSH [$]",
+									"source": 0,
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 58,
+									"end": 84,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 58,
+									"end": 84,
+									"name": "CODECOPY",
+									"source": 0
+								},
+								{
+									"begin": 58,
+									"end": 84,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 58,
+									"end": 84,
+									"name": "RETURN",
+									"source": 0
+								}
+							],
+							".data": {
+								"0": {
+									".auxdata": "a26469706673582212204afaf59fc85e605044e2e65d0a0abceb5be54b651d0c6fb8d6f55bec6e12dd8164736f6c63430008070033",
+									".code": [
+										{
+											"begin": 58,
+											"end": 84,
+											"name": "PUSH",
+											"source": 0,
+											"value": "80"
+										},
+										{
+											"begin": 58,
+											"end": 84,
+											"name": "PUSH",
+											"source": 0,
+											"value": "40"
+										},
+										{
+											"begin": 58,
+											"end": 84,
+											"name": "MSTORE",
+											"source": 0
+										},
+										{
+											"begin": 58,
+											"end": 84,
+											"name": "PUSH",
+											"source": 0,
+											"value": "0"
+										},
+										{
+											"begin": 58,
+											"end": 84,
+											"name": "DUP1",
+											"source": 0
+										},
+										{
+											"begin": 58,
+											"end": 84,
+											"name": "REVERT",
+											"source": 0
+										}
+									]
+								}
+							}
+						},
+						"methodIdentifiers": {}
+					},
+					"metadata": "{\"compiler\":{\"version\":\"0.8.7+commit.e28d00a7\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"immutable.sol\":\"Immutable\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"immutable.sol\":{\"keccak256\":\"0xcd9be86a9817ab7b17cc526ce4ff9fb2710751d56e5e9b984add2619e506376e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://74ee0d0dc34158cce80662f2c8060bc1bc5de3b7dbc02db3090860aafdbe3d57\",\"dweb:/ipfs/QmdMVYJAq2Sa7y77inotzW6Fvq9Ma6CQTZUVjP1A4JE2ny\"]}},\"version\":1}",
+					"storageLayout": {
+						"storage": [],
+						"types": null
+					},
+					"userdoc": {
+						"kind": "user",
+						"methods": {},
+						"version": 1
+					}
+				}
+			}
+		},
+		"sources": {
+			"immutable.sol": {
+				"ast": {
+					"absolutePath": "immutable.sol",
+					"exportedSymbols": {
+						"Immutable": [
+							2
+						]
+					},
+					"id": 3,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.8",
+								".0"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "33:23:0"
+						},
+						{
+							"abstract": false,
+							"baseContracts": [],
+							"contractDependencies": [],
+							"contractKind": "contract",
+							"fullyImplemented": true,
+							"id": 2,
+							"linearizedBaseContracts": [
+								2
+							],
+							"name": "Immutable",
+							"nameLocation": "67:9:0",
+							"nodeType": "ContractDefinition",
+							"nodes": [],
+							"scope": 3,
+							"src": "58:26:0",
+							"usedErrors": []
+						}
+					],
+					"src": "33:51:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

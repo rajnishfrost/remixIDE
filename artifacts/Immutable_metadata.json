@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_a",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"immutable.sol": "Immutable"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"immutable.sol": {
+			"keccak256": "0x694c27849937142a254dd353a9b2b930dd1edcd15a9b2fc6f66bf135ab2d6bfc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3f0865e845a43db02fb4fda1018d54ff89efdf96c48a88621e9cb6c4f7368401",
+				"dweb:/ipfs/QmRwUZxtQtwwdQyW46Ss6mc2xkd9xGwx3LCeRHZcGTQGUM"
+			]
+		}
+	},
+	"version": 1
+}

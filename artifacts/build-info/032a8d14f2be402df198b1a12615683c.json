@@ -1,0 +1,71 @@
+{
+	"id": "032a8d14f2be402df198b1a12615683c",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.0",
+	"solcLongVersion": "0.8.0+commit.c7dfd78e",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"localVariable.sol": {
+				"content": "// SPDX-License-Identifier: MIT"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"errors": [
+			{
+				"component": "general",
+				"errorCode": "3420",
+				"formattedMessage": "Warning: Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.0;\"\n--> localVariable.sol\n\n",
+				"message": "Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.0;\"",
+				"severity": "warning",
+				"sourceLocation": {
+					"end": -1,
+					"file": "localVariable.sol",
+					"start": -1
+				},
+				"type": "Warning"
+			}
+		],
+		"sources": {
+			"localVariable.sol": {
+				"ast": {
+					"absolutePath": "localVariable.sol",
+					"exportedSymbols": {},
+					"id": 1,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [],
+					"src": "31:0:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}
